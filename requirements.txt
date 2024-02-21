@@ -1,0 +1,5 @@
+fastapi==0.109.2
+openai==1.12.0
+pymongo==4.6.1
+PyYAML==6.0
+PyYAML==6.0.1

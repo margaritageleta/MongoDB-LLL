@@ -1,0 +1,7 @@
+mongo_api_key: <your mongo api key>
+mongo_public_key: <your mongo public key>
+openai_api_key: <your openai api key>
+db_user: <your db user>
+db_pass: <your db password>
+db_host: <your db host>
+together_api_key: <your together api key>
