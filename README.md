@@ -15,12 +15,28 @@
 - [LogHub](https://github.com/logpai/loghub).
 
 ## Usage
-Use this command to start the webserver:
+### Virtual environment setup
+
+**1. Create a virtual environment on your local repository**
+
+Create venv:
+
+```
+$ python3 -m venv env
+```
+
+**2. Activate it to install packages and to execute scripts (ALWAYS!)**
+
+```
+$ source ./env/bin/activate
+```
+
+**3. Use this command to start the webserver**
 ```
 uvicorn runner:app --reload
 ```
 
-Commands for the frontend setup:
+**4. Commands for the frontend setup**
 ```
 cd frontend/logfinder
 npm install
