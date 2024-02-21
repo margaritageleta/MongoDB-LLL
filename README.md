@@ -25,10 +25,11 @@ Create venv:
 $ python3 -m venv env
 ```
 
-**2. Activate it to install packages and to execute scripts (ALWAYS!)**
+**2. Activate it to install packages and to execute scripts (ALWAYS!) & install the requirements**
 
 ```
 $ source ./env/bin/activate
+$ (env) pip install -r requirements.txt
 ```
 
 **3. Use this command to start the webserver**
