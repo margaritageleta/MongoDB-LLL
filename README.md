@@ -1,13 +1,29 @@
-# Interacting with Logs using LLMs
+# LLM-embedding-based search within log files
 
-* This project works
+## Brief Overview
+- Software systems generate massive observability data (logs, traces, events, metrics).
+- Existing solutions often involve restrictive querying languages (e.g., Datadog, Prometheus, Splunk).
+- Introduction of 3L as a prototype semantic search and analytics engine.
 
-# Use this command to start the webserver
-`uvicorn runner:app --reload`
+## Implementation Details
+### Backend
+- MongoDB for vector database and vector search.
+- Together.AI for embeddings (m2-bert-80M-32k-retrieval).
+### Frontend
+- ReactJS.
+### Data
+- [LogHub](https://github.com/logpai/loghub).
 
-# How to get the frontend setup
-`cd frontend/logfinder`
+## Usage
+Use this command to start the webserver:
+```
+uvicorn runner:app --reload
+```
 
-`npm install`
-`npm run build`
-`npm run start`
+Commands for the frontend setup:
+```
+cd frontend/logfinder
+npm install
+npm run build
+npm run start
+```
